@@ -11,5 +11,5 @@ class App < Sinatra::Base
     @new_word = piglatinize.piglatinize(params[:user_phrase])
 
     erb :piglatinize
-  end
+  endn
 end
